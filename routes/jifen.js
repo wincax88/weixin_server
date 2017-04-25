@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var MD5 = require("crypto-js/MD5");
+//var MD5 = require("crypto-js/MD5");
+var MD5 = require("crypto-js").MD5;
 
 // duiba
 // AppSecret为：47sqKE7qMRH7Kp3svH51fw8bL5Da
