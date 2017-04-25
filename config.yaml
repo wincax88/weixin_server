@@ -5,12 +5,12 @@ template: ''            # 可以替换的模板的位置，放入自己的模板
 weixin:
   # 微信服务器配置
   server:
-      host: weixin.draw100.com     # 远程的服务器名， 需要与JSSDK的授权域名一致
+      host: wechat.draw100.com     # 远程的服务器名， 需要与JSSDK的授权域名一致
       prefix: '/api'      # 格式是'/xxx'，必须带'/'
   # 微信公共号的基本配置信息
   app:
-      id: 'wx30313aabad645559'           # 必须换成自己的
-      secret: 'GoPxlhaQJ2pbHxk732VgpPDOE3SZS3PuG9XP9NMnyRx'       # 必须换成自己的
+      id: 'wx466da66554d41eef'           # 必须换成自己的
+      secret: '0654acb8beed48a192a4b9d246addedd'       # 必须换成自己的
       token: 'minecraft'
   # Oauth 相关
   oauth:
