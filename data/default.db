@@ -1,0 +1,58 @@
+{
+  "data": {
+    "event": [],
+    "message": []
+  },
+  "schema": {
+    "event": {
+      "from": {
+        "type": "string"
+      },
+      "to": {
+        "type": "string"
+      },
+      "event": {
+        "type": "string"
+      },
+      "message": {
+        "type": "json"
+      },
+      "time": {
+        "type": "datetime"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      }
+    },
+    "message": {
+      "from": {
+        "type": "string"
+      },
+      "to": {
+        "type": "string"
+      },
+      "event": {
+        "type": "string"
+      },
+      "message": {
+        "type": "json"
+      },
+      "time": {
+        "type": "datetime"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      }
+    }
+  },
+  "counters": {
+    "event": {},
+    "message": {}
+  }
+}
