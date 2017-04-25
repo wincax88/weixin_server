@@ -33,7 +33,7 @@ router.get('/getJsToken', function(req, res, next) {
     var param = {
       debug: false,
       jsApiList: ['onMenuShareTimeline', 'onMenuShareAppMessage'],
-      url: 'http://localhost:8080/' //'http://weixin.draw100.com/api/demo'
+      url: 'http://weixin.draw100.com/api' //'http://localhost:8080/' //'http://weixin.draw100.com/api/demo'
     };
     api.getJsConfig(param, function (err, result){
       console.log(err, result);
